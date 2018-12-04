@@ -1,0 +1,978 @@
+/*
+User: El_Vergel
+Pass: l#iXwTI$V%qRe^SB6O
+*/
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+@font-face {
+	font-family: 'greyscalebasicregular';
+	src: url('../fonts/greyscale/Greyscale_Basic_Regular-webfont.eot');
+	src: url('../fonts/greyscale/Greyscale_Basic_Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/greyscale/Greyscale_Basic_Regular-webfont.woff') format('woff'), url('../fonts/greyscale/Greyscale_Basic_Regular-webfont.ttf') format('truetype'), url('../fonts/greyscale/Greyscale_Basic_Regular-webfont.svg#greyscalebasicregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../fonts/SourceSansPro-Regular.eot');
+	src: url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SourceSansPro-Regular.woff') format('woff'),
+	url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../fonts/SourceSansPro-Semibold.eot');
+	src: url('../SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SourceSansPro-Semibold.woff') format('woff'),
+	url('../fonts/SourceSansPro-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+body {
+    color: #666;
+	font-size: 22px;
+	font-family: Source Sans Pro, sans-serif;
+	background-color: #fff;
+}
+
+header{
+	/*height: 333px;*/
+	display: block;
+    overflow: hidden
+}
+
+
+
+footer {
+	background-image: url(../images/footer.jpg);
+	background-size: cover;
+	border-top: solid 2px yellow;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding: 8px;
+	min-height: 100%;
+}
+
+footer a {
+	color: yellow;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer .redes{
+	margin-top: 10%;
+}
+
+
+input[type=submit]{
+	background-color: #FF9500;
+    padding: 4px;
+    border: yellow solid 2px;
+    color: #fff;
+    margin: 15px 0px 10px 0px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.18);
+}
+
+input[type=submit]:hover{
+	background-color: coral;
+}
+
+input[type=text]{
+	border: solid #FF9500 2px;
+	padding: 4px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+input[type=email]{
+	border: solid #FF9500 2px;
+	padding: 4px;
+    margin-top: 10px;
+    width: 80%;
+}
+input[type=password]{
+    padding: 4px;
+    border: none;
+    width: 80%;
+    margin: 6px 0px 0px 6px;
+    border: solid #FF9500 2px;
+}
+
+h1{
+	color: #FF9500;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+ nav {
+    width: 100%; 
+  }
+
+
+.container{
+	/*margin-bottom: 20px;*/
+}
+
+/*NAVBAR*/
+
+.navbar{
+	border-radius: 0px;
+	border-bottom: #F5E500 solid 2px;
+	margin-bottom: -184px;
+
+}
+
+.navbar-header img{
+	margin-left: -15px;
+    margin-bottom: -1px;
+}
+
+.navbar-default{
+	background-color: rgba(15, 79, 112, 0.78);
+	border-bottom: #F5E500 solid 2px;
+	/*display: -webkit-inline-box;*/
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #B2DB05;
+    background: url(../images/bg-hover.png);
+    background-repeat: no-repeat;
+    background-position: 50% -4px;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    color: yellow;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: yellow;
+}
+
+
+/*BOTON*/
+
+.navbar-default .navbar-toggle {
+	border-color: #FF9500;
+}
+.navbar-toggle {
+	background-color: #FF9500;
+	background-image: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: yellow;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: yellow 2px solid;
+}
+
+/**/
+.bloque-principal-home{
+    position: relative;
+}
+.bloque-principal-home p{
+	position: absolute;
+	top: 20px;
+	width:30%;
+    text-shadow: 7px 7px 6px rgba(0, 0, 0, 0.38);
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 137px;
+    border: dashed yellow 3px;
+    padding: 20px;
+    display: -webkit-inline-box;
+    border-radius: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.bloque-principal-home a{
+	color: #F5E500;
+	font-weight: bold;
+	text-shadow: 1px 4px 1px rgba(0, 0, 0, 0.38);
+}
+
+.bloque-principal-home a:hover{
+	color: #F5E500;
+	text-decoration: none;
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.38);
+}
+
+.bloque-principal-plantillas{
+	background-image: url(../images/18325025-j-venes-amigos-felices-jugando-y-mirando-tableta-digital.jpg);
+	min-height: 650px;
+	background-size: cover;
+	text-align: -webkit-center;
+	margin-top: -160px;
+}
+
+.bloque-principal-plantillas p{
+	margin-top: 40%;
+    text-shadow: 7px 7px 6px rgba(0, 0, 0, 0.38);
+    font-size: 9vw;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bloque-principal-plantillas a{
+	color: #F5E500;
+	font-weight: bold;
+	text-shadow: 1px 4px 1px rgba(0, 0, 0, 0.38);
+}
+
+.bloque-principal-plantillas a:hover{
+	color: #F5E500;
+	text-decoration: none;
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.38);
+}
+
+
+.bloque-1{
+	background-color: #fff;
+	min-height: 250px;
+	text-align: center;
+	margin-bottom:100px;
+}
+
+.bloque-1 img{
+	margin: 0 auto;
+}
+
+.bloque-1 a:hover{
+	max-width: 80%;
+}
+
+.bloque-1 p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: orange;
+	padding: 10px;
+	display: -webkit-inline-box;
+}
+.somos{
+	margin-bottom:100px;
+}
+
+.bloque-1 a p:hover {
+    color: #B2DB05;
+    background: url(../images/bg-hover.png);
+    background-repeat: no-repeat;
+    background-position: 50% -4px;
+    text-decoration: blink;
+}
+
+.bloque-a{
+	background-color: #fff;
+	min-height: 250px;
+}
+
+.bloque-a h2{
+	color: orange;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: -webkit-left;
+}
+
+.bloque-a .textos{
+	padding: 50px;
+	text-align: justify;
+	color: #4DC5DA;
+}
+
+.textos a{
+	color: #0F4F70;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.textos a:hover{
+	color: orange;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.textos p{
+	font-size: 18px;
+	font-style: italic;
+}
+
+.bloque-a .textos a h1:hover{
+	color: #0F4F70;
+}
+
+.imagen a img:hover{
+	opacity: 0.8;
+}
+
+.bloque-b h2{
+	color: #4DC5DA;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: -webkit-left;
+    text-shadow: 2px 2px 0px #FFFFFF;
+}
+
+
+.bloque-b{
+	background-color: #E6E6E6;
+	min-height: 250px;
+}
+
+.bloque-b .textos{
+	padding: 50px;
+	text-align: justify;
+	color: #FF9500;
+}
+
+.bloque-b .textos a h1:hover{
+	color: #FF9500;
+}
+
+
+.textos{
+	margin-top: 40px;
+}
+
+.titulo-2{
+	    color: #00407b;
+    font-size: 6vh;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.my-icon {
+    position: relative;
+}
+.my-icon > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 71px solid transparent;
+    border-left: 71px solid #fff;
+    border-top: 71px solid #fff;
+    left: 0em;
+    top: 0em;
+    z-index: 2;
+}
+
+.textos h1.largo{
+	font-size: 3.6vw;
+}
+
+/*HEADER*/
+
+.header-logo{
+	text-align: center;
+}
+.logo{
+	text-align: center
+}
+.logo a{
+	margin: auto;
+	display:inline-block
+}
+.logo a img{
+	margin: auto
+}
+.logo-small{
+	position:absolute;
+	left:200px;
+	width:100px;
+	height:auto;
+	opacity:0;
+	transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+}
+.display{
+	opacity:1;
+	left:100px;
+	top:10px;
+}
+.login{
+	margin-top: 2%;
+    font-size: 14px;
+    position: absolute;
+    right: 28px;
+}
+
+.login a{
+	background-color: #FF9500;
+    padding: 4px;
+    border: yellow solid 2px;
+    color: #fff;
+    display: -webkit-inline-box;
+    width: 104px;
+    text-align: -webkit-center;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.18);
+}
+
+.login a:hover{
+	background-color: coral;
+    padding: 4px;
+    border: yellow solid 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	display: inline-block;
+	padding: 0;
+	margin: 0
+}
+.slogan{
+	color: #0F4F70;
+    font-style: italic;
+    font-weight: 700;
+}
+.slider img{
+	width:100%
+}
+/*ESTADISTICAS*/
+.estadisticas p{
+	margin-top: 20px;
+	margin-right: 138px;
+    position: relative;
+    z-index: 1;
+}
+
+.estadisticas{
+	background-color: orange;
+	min-height: 250px;
+	color: #fff;
+}
+
+.estadisticas .bold{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.estadisticas .bold-2{
+	font-size: 44px;
+	font-weight: bold;
+}
+
+.estadisticas img{
+	max-width: 50%;
+    position: relative;
+    top: -66px;
+    right: -139px;
+}
+
+.est-dos{
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.est-dos img{
+	max-width: 50%;
+    position: relative;
+    top: -215px;
+    right: -65%;
+}
+
+.header-dos{
+	background-color: rgb(15, 79, 112);
+}  
+
+/*PLANES*/
+
+.planes-form{
+	border: #0F4F70 dashed 2px;
+    box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.19);
+    text-align: -webkit-center;
+    color: #FF9500;
+    min-height: 600px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.planes ul{
+	color: orange;
+}
+
+.planes p{
+	color: #0F4F70;
+	font-size: 18px;
+}
+
+.plan-1{
+	background-color: #E8E8E8;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.plan-1 h2{
+	color: #0F4F70;
+	font-weight: bold;
+}
+
+.planes .precio{
+	border-left: orange solid 1px;
+}
+
+.planes h3{
+	color: #FF9500;
+	font-weight: bold;
+}
+
+
+.imagen{
+	text-align: -webkit-center;
+    padding: 15px;
+}
+
+
+.tips h2{
+	text-align: center;
+}
+
+.tips a{
+	color: #0F4F70;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.tips a:hover{
+	color: #FF9500;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* MODAL-1 */
+.modal-content {
+    position: relative;
+    background-color: rgb(6, 54, 78);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    text-align: -webkit-center;
+    color: #fff;
+    margin-top: 20%;
+    border-radius: 20px;
+}
+
+.modal-header{
+	border: none;
+}
+.modal-header p{
+	font-size: 21px;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.modal-title{
+	color: yellow;
+	font-size: 37px;
+}
+.modal-body{
+	padding: 0px;
+}
+.modal-body input{
+	    color: #808080;
+    	font-style: oblique;
+}
+.modal-footer{
+	border: none;
+	text-align: center;
+}
+
+.email-info{
+	display: inline;
+    font-size: 17px !important;
+    margin-left: 10px;
+}
+
+.select-planes{
+	margin-top: 10px;
+    cursor: pointer;
+    border: orange solid 2px;
+    width: 80%;
+    padding: 4px;
+}
+
+/*TIPS*/
+.tip{ 
+    padding: 20px;
+    margin-top: 15px;
+}
+.tip p{
+	font-size: 18px;
+    text-align: justify;
+}
+
+.tip img{
+	margin-top: 40px;
+}
+
+.tip h1{
+	font-size: 40px;
+}
+
+/*VENTAJAS*/
+
+.ventajas a{
+	color: #0F4F70;
+}
+
+.ventajas ul{
+	font-size: 18px;
+}
+
+.ventajas a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+.ventajas .textos{
+	padding: 0px;
+}
+
+.ventajas h1{
+	padding-left: 35px;
+}
+
+.ventajas p{
+	padding-left: 35px;
+}
+
+.modal-ventajas p{
+	text-align: justify;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.modal-ventajas .modal-title{
+	font-size: 16px;
+    text-transform: uppercase;
+    color: yellow;
+    text-align: -webkit-center;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+
+/*NUEVO STICKY*/
+
+.contenedor img{
+	margin: 0 auto;
+}
+
+.contenedor {
+	width: 100%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+ 
+header nav {
+	/*background:#3498db;*/
+	/*margin-bottom:10px;*/
+	text-align:center
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	/*background:#2980b9;*/
+	color: #B2DB05;
+    background: url(../images/bg-hover.png);
+    background-repeat: no-repeat;
+    background-position: 50% -4px;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	background-color: rgba(15, 79, 112, 0.78);
+    border-bottom: #F5E500 solid 2px;
+    height: 100px;
+}
+
+.menu-fixed li{
+	    margin-top: 10px;
+}
+
+/*CONTATOS*/
+.contactos{
+	background-image: url(../images/10198260-Familia-picnic-juntos-Foto-de-archivo.jpg);
+	background-size: cover;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	min-height: 650px;
+	min-height: 344px;
+}
+
+.contactos .texto{
+	border: dashed yellow 3px;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 8px;
+    margin-left: 80px;
+    color: #fff;
+    text-shadow: 7px 7px 6px rgba(0, 0, 0, 0.38);
+}
+
+.contactos h2{
+    font-size: 5vw;
+    font-weight: 500;
+    display: block;
+}
+
+/*SOMOS*/
+.somos p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: orange;
+	text-align: center;
+	font-size: 24px;
+}
+
+.somos h2{
+	color: #4DC5DA;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: -webkit-center;
+    text-shadow: 2px 2px 0px #FFFFFF;
+}
+
+/*FORMULARIO*/
+
+form{
+	margin: 0 auto;
+    text-align: -webkit-center;
+}
+
+.form-group label{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.boton{
+	color: #FFFFFF;
+    background-color: #F49401;
+    border-color: #DA4C02;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 5px 70px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: yellow;
+}
+
+.checkbox input[type=checkbox]{
+    float: none; 
+    margin-left: 0px;
+}
+
+.checkbox label{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*CARROUSEL*/
+
+.carousel{
+	/*z-index: -4;*/
+	z-index: 0;
+}
+.carousel-control.left{
+	/*height: 95%;*/
+	height: 100%;
+}
+.carousel-control.right{
+	/*height: 95%;*/
+	height: 100%;
+}
+
+/*GALERI*/
+.thumb {
+    margin: 30px 0px;
+}
+
+/*MEDIAS*/
+@media (min-width: 768px){
+.navbar-header {
+    float: none;
+}}
+
+@media (max-width: 991px){
+header {
+    height: 256px;
+}}
+
+@media (max-width: 767px) {
+.login {
+    margin-top: 0px;
+    font-size: 14px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin-left: 0px; 
+    text-align: -webkit-center;
+}
+}
+
+@media (max-width: 767px) {
+.menu {
+    margin-top: 20px;
+    margin-left: 0px; 
+}
+}
+
+@media (max-width: 767px) {
+.navbar-header img {
+    margin-left: 0px;
+	margin-bottom: 0px; 
+	padding: 5px; 
+}
+}
+
+@media (max-width: 666px) {
+	.est-dos img {
+    right: -50%;
+}
+}
+
+@media (max-width: 768px){
+	.bloque-principal-home{
+		min-height: 330px;;
+	}
+}
+
+@media (max-width: 768px) {
+	.bloque-principal-plantillas {
+    min-height: 400px;
+}
+}
+
+@media (max-width: 768px){
+	.bloque-principal-plantillas p{
+		margin-top: 59%;
+		font-size: 14vw;
+	}
+}
+
+@media (max-width: 519px){
+	.bloque-a .textos{
+		padding: 0px;
+	}
+}
+
+@media (max-width: 519px){
+	.bloque-b .textos{
+		padding: 0px;
+	}
+}
+
+@media (max-width: 991px){
+	.precio h1{
+		font-size: 6vw;
+	}
+}
+
+@media (max-width: 480px){
+	.contactos .textos{
+	margin-top: 90px;
+}
+}
+
+@media (max-width: 991px){
+	.imagen{
+	margin-top: 12%;
+}
+}
+
+@media (max-width: 991px){
+	.bloque-a .textos{
+	padding: 0px;
+}
+}
+
+@media (max-width: 991px){
+	.bloque-b .textos{
+	padding: 0px;
+}
+}
+
+/*media footer*/
+@media (max-width: 768px){
+	footer .info-footer{
+	text-align: right;
+}
+}
+
+@media (max-width: 521px){
+	footer {
+	background-image: url(../images/footer-xs.jpg);
+	background-size: cover;
+}
+}
+
+.contacto{
+	color: #4DC5DA;
+	text-align: center;
+	margin-bottom:30px;
+}
+
+.contacto h2{
+	color: orange;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.contacto p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
